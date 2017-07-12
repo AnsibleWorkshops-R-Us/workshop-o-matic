@@ -1,0 +1,7 @@
+serverspec-init
+rake spec
+sudo apt purge apache2
+ansible-playbook simplest_playbook.yml -i hosts
+ansible-playbook simpler_playbook.yml -i hosts
+ansible-playbook simple_playbook.yml -i hosts
+ansible-playbook simpler_playbook.yml -i hosts --syntax-check

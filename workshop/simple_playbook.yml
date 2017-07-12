@@ -1,0 +1,16 @@
+---
+- name: simple playbook
+  hosts: web
+
+  tasks:
+    - name: install & maintain web server
+      become: yes
+      package: name=apache2 state=latest
+      notify:
+        - restart web server
+
+  handlers:
+    - name: restart web server
+      become: yes
+      service: name=apache2 state=restarted
+

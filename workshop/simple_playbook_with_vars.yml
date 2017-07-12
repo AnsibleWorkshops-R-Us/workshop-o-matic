@@ -1,0 +1,19 @@
+---
+- name: simple playbook with a variable
+  hosts: web
+
+  vars:
+    web_service_name: apache2
+
+  tasks:
+    - name: install & maintain web server
+      become: yes
+      package: name={{ web_service_name }} state=latest
+      notify:
+        - restart web server
+
+  handlers:
+    - name: restart web server
+      become: yes
+      service: name={{ web_service_name }} state=restarted
+

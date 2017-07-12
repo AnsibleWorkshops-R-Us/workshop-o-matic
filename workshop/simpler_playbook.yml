@@ -1,0 +1,13 @@
+---
+- name: simpler playbook
+  hosts: web
+
+  tasks:
+    - name: install & maintain web server
+      become: yes
+      package: name=apache2 state=latest
+
+    - name: restart web server
+      become: yes
+      service: name=apache2 state=restarted
+
