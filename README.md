@@ -4,7 +4,7 @@ freely borrows from [Vagrant-DSpace](https://github.com/dspace/vagrant-dspace)
 
 * Installs, via shell scripts, Ansible and ServerSpec, with a few configuration nicieties thrown in (mostly borrowed
 from [Vagrant-DSpace](https://github.com/dspace/vagrant-dspace).
-* Copies the workshop files for [https://github.com/AnsibleWorkshops-R-Us/OR2017] our OR2017 workshop. These can easily be
+* Copies the workshop files for [our OR2017 workshop](https://github.com/AnsibleWorkshops-R-Us/OR2017). These can easily be
 replaced with other workshop content.
 
 ## Requirements
