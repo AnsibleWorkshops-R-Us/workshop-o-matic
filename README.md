@@ -34,7 +34,7 @@ The following Vagrant plugins are not required, but they do make using Vagrant a
 
 * [Vagrant-VBGuest](https://github.com/dotless-de/vagrant-vbguest) - *Highly Recommended for VirtualBox* as it keeps VirtualBox Guest Additions up to date
   * `vagrant plugin install vagrant-vbguest`
-* [Vagrant-Cachier](https://github.com/fgrehm/vagrant-cachier) - Caches packages between VMs. (Project now unmaintained, see URL)
+* [Vagrant-Cachier](https://github.com/fgrehm/vagrant-cachier) - Caches packages between VMs.
 * [Landrush](https://github.com/vagrant-landrush/landrush) - Mostly useful for web development work with Vagrant, however 
 we're using it to configure usage of [Google Public DNS](https://developers.google.com/speed/public-dns/), to
 give this VM a slight speed boost.
