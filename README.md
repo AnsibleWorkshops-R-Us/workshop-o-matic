@@ -26,7 +26,7 @@ move quickly, and the distro managers have a hard time keeping up.
 5. `vagrant up`
    * Wait for ~5 minutes while Vagrant finishes provisioning the box
    * Don't worry, it will finish soon.
-6. Once complete, run `vagrant ssh` and you're ready to [follow along with one of our workshops](https://github.com/AnsibleWorkshops-R-Us).
+6. Once complete, run `vagrant ssh` and you're ready to [follow along with one of our workshops](https://github.com/AnsibleWorkshops-R-Us). Or possibly [other workshops, as well](https://github.com/samvera/hydra/wiki/Dive-into-Hydra).
 
 ## Vagrant Plugin Recommendations
 
